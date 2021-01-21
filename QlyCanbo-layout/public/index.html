@@ -1,0 +1,147 @@
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font awsome css -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Cybersoft - TypeScript</title>
+</head>
+
+<body>
+
+    <!-- #region  modal-->
+    <div class="modal fade" id="modalAddNew" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalAddNewLabel">Thêm một cán bộ mới</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="color: #fff;">&times;</span>
+                    </button>
+                </div>
+                <form id="frm-add" class="m-0">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <small class="form-text text-muted">Họ tên</small>
+                            <input type="text" class="inputTag form-control form-control-sm" id="txtName" required>
+                        </div>
+                        <div class="form-group">
+                            <small class="form-text text-muted">Tuổi</small>
+                            <input type="number" class="inputTag form-control form-control-sm" id="txtAge" required>
+                        </div>
+                        <div class="form-group">
+                            <small class="form-text text-muted">Giới tính</small>
+                            <select class="custom-select" id="txtGender">
+                                <option selected value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <small class="form-text text-muted">Số giờ làm</small>
+                            <input type="number" class="inputTag form-control form-control-sm" id="txtTimeWorked"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <small class="form-text text-muted">Phòng ban</small>
+                            <div class="form-check d-flex justify-content-around align-items-center">
+                                <small
+                                    class="form-text text-muted d-flex justify-content-around align-items-center"><input
+                                        class="mr-3" type="radio" class="form-check-input" name="type" value="it"
+                                        checked id="radIT">IT</small>
+                                <small
+                                    class="form-text text-muted d-flex justify-content-around align-items-center"><input
+                                        class="mr-3" type="radio" class="form-check-input" name="type" value="marketing"
+                                        id="radMark">Marketing</small>
+                                <small
+                                    class="form-text text-muted d-flex justify-content-around align-items-center"><input
+                                        class="mr-3" type="radio" class="form-check-input" name="type" value="sales"
+                                        id="radSal">Sales</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer ">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">đóng</button>
+                        <button type="submit" class="btn btn-primary" id="btnSubmit">Thêm</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion -->
+    <div class="wrapper">
+
+        <h1 class="display-4 text-center">quản lý nhân sự</h1>
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <select class="custom-select m-0" id="selSearchDeparment">
+                        <option selected value="all">All</option>
+                        <option value="it">IT</option>
+                        <option value="marketing">Marketing</option>
+                        <option value="sales">Sales</option>
+                    </select>
+                </div>
+                <div class="text-right my-3">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#modalAddNew"
+                        id="btnShowModalAddNew">Thêm mới</button>
+                </div>
+            </div>
+            <div class="scrolltable">
+                <table class="table table-striped table-inverse">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Họ tên</th>
+                            <th>Tuổi</th>
+                            <th>Giới tính</th>
+                            <th>Phòng ban</th>
+                            <th>Lương</th>
+                            <th>Tùy chỉnh</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tb_render">
+                        <tr>
+                            <td scope="row">1</td>
+                            <td>Nguyễn Ngọc Kha</td>
+                            <td>21</td>
+                            <td>Nam</td>
+                            <td>IT</td>
+                            <td>150000</td>
+                            <td>
+                                <button class="btn btn-primary"><i class="fas fa-pencil-alt"></i></button>
+                                <button class="btn btn-primary"><i class="far fa-window-close"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <small class="form-text text-muted text-center mt-3"><a class=" text-cyber"
+                href="https://cybersoft.edu.vn/">cybersoft.edu.vn</a></small>
+        <small class="form-text text-muted text-center  text-cyber" style="font-size: 0.8em;">Đào tạo chuyên gia lập
+            trình</small>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- axios js file -->
+    <script src="./js/axios.min.js"></script>
+    <!-- sweetalert js file -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- custome js file -->
+    <script type="module" src='js/main.js'></script>
+</body>
+
+</html>

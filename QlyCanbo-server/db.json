@@ -1,0 +1,92 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Nguyễn Ngọc Kha",
+      "age": 21,
+      "gender": "male",
+      "timeWorked": 1000,
+      "department": "it"
+    },
+    {
+      "id": "2",
+      "name": "Trần Văn Trẩu",
+      "age": 29,
+      "gender": "male",
+      "timeWorked": 60,
+      "department": "marketing"
+    },
+    {
+      "id": "3",
+      "name": "Lê Văn Lệ",
+      "age": 26,
+      "gender": "female",
+      "timeWorked": 80,
+      "department": "sales"
+    },
+    {
+      "id": "4",
+      "name": "Lý văn Nam",
+      "age": 29,
+      "gender": "male",
+      "timeWorked": 110,
+      "department": "it"
+    },
+    {
+      "id": "5",
+      "name": "Chung Thị Nụ",
+      "age": 25,
+      "gender": "female",
+      "timeWorked": 98,
+      "department": "marketing"
+    },
+    {
+      "id": "6",
+      "name": "Kim Thị Hến",
+      "age": 30,
+      "gender": "female",
+      "timeWorked": 90,
+      "department": "sales"
+    },
+    {
+      "id": "7",
+      "name": "Trần Văn Dậu",
+      "age": 21,
+      "gender": "male",
+      "timeWorked": 47,
+      "department": "marketing"
+    },
+    {
+      "id": "8",
+      "name": "Trần Thị Nụ",
+      "age": 25,
+      "gender": "female",
+      "timeWorked": 84,
+      "department": "marketing"
+    },
+    {
+      "id": "9",
+      "name": "Lý Thị Lệ",
+      "age": 23,
+      "gender": "female",
+      "timeWorked": 35,
+      "department": "sales"
+    },
+    {
+      "id": "11",
+      "name": "Hà Văn Kha",
+      "age": 21,
+      "gender": "female",
+      "timeWorked": 100,
+      "department": "it"
+    },
+    {
+      "name": "Hà Văn Thịnh",
+      "age": 28,
+      "gender": "male",
+      "timeWorked": 83,
+      "department": "marketing",
+      "id": "QfBUmDK"
+    }
+  ]
+}

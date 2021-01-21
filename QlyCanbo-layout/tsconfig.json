@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Basic Options */ 
+    "target": "es6", /* cấu hình theo version ECMAScript (javaScript) mà bạn muốn: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', ...*/
+    "module": "ES2015", /* module này mình sẽ hướng dẫn trong các slide khác */
+    "sourceMap": false, /* cho phép tạo ra file source map'. */
+    "outDir": "./public/js", /* folder tạo ra file js được dịch từ file ts . */
+    "rootDir": "./src", /* Chỉ định thư mục gốc của các tệp đầu vào. Sử dụng để kiểm soát cấu trúc thư mục đầu ra với --outDir. */
+    "strict": true,  
+    "esModuleInterop": true, /* liên quan đến phần module '. */ 
+    /* các option được khuyến cáo nên sử dụng  */ 
+    "skipLibCheck": true,                     /* Skip type checking of declaration files. */
+    "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
+  },
+  "include":["src"], // chỉ những file bên trong thư mục này mới được biên dịch .
+}

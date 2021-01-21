@@ -1,0 +1,11 @@
+nhân viên phòng IT 
+    luong = sogiolam*50000*1.2 
+nhân viên phòng marketing 
+    luong = sogiolam*45000*1.25
+nhân vien phòng sales 
+    luong = sogiolam*48000*1.5
+
+
+1 nhúng file axios vào
+
+2 dùng axios fetch data và kiểm tra
