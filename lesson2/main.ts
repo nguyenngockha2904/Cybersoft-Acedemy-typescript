@@ -1,8 +1,18 @@
-let character = 'Kha Cybersoft-Cyberlearn';
-console.log(character);
-var inputs = document.querySelectorAll('input');
-console.log(inputs);
-inputs.forEach(input => {
-  console.log(input);
-});
-console.log('kha dep trai');
+// string
+let character: string = 'cybersoft';
+let strg: string;
+// character=12;
+// character=true;
+character = '';
+// str=12;
+
+// number
+let st = 12;
+let age: number;
+// boolean
+let bool: boolean;
+
+const chuvi = (duongkinh: number) => {
+  return duongkinh * Math.PI;
+};
+console.log(chuvi(12));
