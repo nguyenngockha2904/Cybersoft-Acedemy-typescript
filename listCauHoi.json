@@ -1,0 +1,188 @@
+[
+  {
+    "id": 1,
+    "type": "mulChoice",
+    "ques": "1 + 2 = ?",
+    "answers": [
+      {
+        "id": 1,
+        "title": "10",
+        "exact": false
+      },
+      {
+        "id": 2,
+        "title": "2",
+        "exact": false
+      },
+      {
+        "id": 3,
+        "title": "3",
+        "exact": true
+      },
+      {
+        "id": 4,
+        "title": "1",
+        "exact": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "mulChoice",
+    "ques": "Ở Việt Nam, rồng bay ở đâu và đáp ở đâu?",
+    "answers": [
+      {
+        "id": 1,
+        "title": "Hà Nội và Long An",
+        "exact": false
+      },
+      {
+        "id": 2,
+        "title": "Hà nội và Quảng Ninh",
+        "exact": false
+      },
+      {
+        "id": 3,
+        "title": "Thăng Long và Hạ Long",
+        "exact": true
+      },
+      {
+        "id": 4,
+        "title": "Quảng Ninh và Long An",
+        "exact": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "mulChoice",
+    "ques": "Con gấu trúc ao ước gì mà không bao giờ được?",
+    "answers": [
+      {
+        "id": 1,
+        "title": "Ăn Kẹo",
+        "exact": false
+      },
+      {
+        "id": 2,
+        "title": "Uống cocacola",
+        "exact": false
+      },
+      {
+        "id": 3,
+        "title": "Đá bóng",
+        "exact": false
+      },
+      {
+        "id": 4,
+        "title": "Chụp hình",
+        "exact": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "mulChoice",
+    "ques": "Cái gì đánh cha, đánh má, đánh anh, đánh chị, đánh em?",
+    "answers": [
+      {
+        "id": 1,
+        "title": "Cái chổi",
+        "exact": false
+      },
+      {
+        "id": 2,
+        "title": "Cái trống",
+        "exact": false
+      },
+      {
+        "id": 3,
+        "title": "Cái gậy",
+        "exact": false
+      },
+      {
+        "id": 4,
+        "title": "Cái bàn chải đánh răng",
+        "exact": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "mulChoice",
+    "ques": "Con cua đỏ dài 10 cm chạy đua với con cua xanh dài 15cm. Con nào về đích trước?",
+    "answers": [
+      {
+        "id": 1,
+        "title": "Con cua xanh",
+        "exact": true
+      },
+      {
+        "id": 2,
+        "title": "Con cua đỏ",
+        "exact": false
+      },
+      {
+        "id": 3,
+        "title": "Hai con cùng về đích",
+        "exact": false
+      },
+      {
+        "id": 4,
+        "title": "Không biết",
+        "exact": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "mulChoice",
+    "ques": "Những loài thú nào sau đây ăn cơm:",
+    "answers": [
+      {
+        "id": 1,
+        "title": "Sư tử",
+        "exact": true
+      },
+      {
+        "id": 2,
+        "title": "Cọp",
+        "exact": false
+      },
+      {
+        "id": 3,
+        "title": "Hà mã",
+        "exact": false
+      },
+      {
+        "id": 4,
+        "title": "Voi",
+        "exact": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "FillBlank",
+    "ques": "Có 1 đàn chim đậu trên cành, người thợ săn bắn cái rằm. Hỏi chết mấy con?",
+    "answers": "15"
+  },
+  {
+    "id": 8,
+    "type": "FillBlank",
+    "ques": "Có một đàn vịt, cho biết 1 con đi trước thì có 2 con đi sau, 1 con đi sau thì có 2 con đi trước, 1 con đi giữa thì có 2 con đi 2 bên. Hỏi đàn vịt đó có mấy con?",
+    "answers": "3"
+  },
+  {
+    "id": 9,
+    "type": "FillBlank",
+    "ques": "Có bao nhiêu chữ C trong câu sau: \"Cơm, canh, cá, tất cả em đều thích\"?",
+    "answers": "1"
+  },
+  {
+    "id": 10,
+    "type": "FillBlank",
+    "ques": "Bố mẹ có 6 người con trai, mỗi người con trai có một đứa em gái. Vậy gia đình đó có mấy người?",
+    "answers": "9"
+  }
+]

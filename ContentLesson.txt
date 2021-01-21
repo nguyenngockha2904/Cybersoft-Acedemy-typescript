@@ -1,0 +1,20 @@
+1 phân tích data xác định các đối tượng cần có trong data.
+
+2 xây dựng type và interface.
+
+3 xây dựng các class implement từ interface 
+3.1 xây dựng hàm mapdata từ list góc sang list đối tượng mà ta khởi tạo
+
+
+4 định nghĩa chức năng render tại interface
+4.1 xây dựng các chức năng render của từng class
+4.2 xây dựng hàm renderListQuestion 
+    4.2.1 dùm hàm for gọi đến phương thức render của từng đối tượng và thêm nó vào một template
+    4.2.2 DOM đến boxCauHoi và thêm layout template vào box câu hỏi = innerHTML
+
+5 định nghĩa chức năng checkAnswer tại interface
+5.1 xây dựng phương thức checkAnswer cho từng class
+5.2 xây dựng hàm submit cho form 
+    5.2.1 dùm hàm for gọi đến phương thức checkAnswer kiểm tra nếu đúng thì tăng biến đếm result lên 1 đơn vị.
+    5.2.2 thông báo kết quả.
+

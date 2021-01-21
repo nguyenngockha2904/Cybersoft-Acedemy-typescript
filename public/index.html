@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- font-awesome icons -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- css custome -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- responsive css -->
+    <title>Cybersoft - Quiz app</title>
+</head>
+
+<body>
+    <div class="wapper">
+        <form id="form-quiz" class="quiz-area">
+            <div class="title">Quiz App</div>
+            <div class="d-flex justify-content-around align-items-center point-area">
+                <div class="text-title ">Số Câu: <span id="total_Q">0</span></div>
+                <div class="text-title">số câu đúng: <span id="results">0</span></div>
+            </div>
+            <div class="quiz-box" id="Box_CauHoi">
+                <div class="quest-item">
+                    <div class="form-group">
+                        <div class="text-quest">Câu 1:1+2 = ?</div>
+                        <div class="container">
+                            <div class=" group-anwsers">
+                                <div class=" answer_item"><input class="cau1" type="radio" name="cau1" value="true" re>
+                                    <span>2</span>
+                                </div>
+                                <div class=" answer_item"><input class="cau1" type="radio" name="cau1" value="false">
+                                    <span>4</span>
+                                </div>
+                                <div class=" answer_item"><input class="cau1" type="radio" name="cau1" value="flase">
+                                    <span>-1</span>
+                                </div>
+                                <div class=" answer_item"><input class="cau1" type="radio" name="cau1" value="false">
+                                    <span>7</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="quest-item">
+                    <div class="form-group">
+                        <div class="text-quest">Câu 2: Kha là ai?</div>
+                        <div class="container">
+                            <input type="text" class="form-control" id="cau-2" aria-describedby="helpId" placeholder="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center my-4"><button type="submit" class="btn btn-primary">Check</button></div>
+        </form>
+
+    </div>
+    <!-- jquery js file -->
+    <script src="./js/jquery.3.4.1.js"></script>
+    <!-- bootstrap js file -->
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- axios js file -->
+    <script src="./js/axios.min.js"></script>
+    <!-- custom js file -->
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
